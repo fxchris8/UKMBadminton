@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24252a;
+}
+
+li, a, button{
+    font-family: 'Bitter';
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    height: 20%;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a{
+    transition: all 0.5s ease 0s;
+}
+
+.nav li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.konten{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+}
+
+.konten .teks{
+    position: relative;
+    max-width: 600px;
+}
+
+.konten .teks h2{
+    color: #fff;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.konten .teks h2 span{
+    font-size: 2em;
+}
+
+.konten .teks p{
+    color: #fff;
+    font-family: 'Nunito';
+}
+
+.konten .imgbad{
+    width: 600px;
+    display: flex;
+    padding-right: 100px;
+    justify-content: flex-end;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.konten .imgbad img{
+    max-width: 260px;
+}
+
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    transition: 0.5s;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.5s;
+}
+
+.thumb li :hover{
+    transform: translateY(-15px);
+}
+
+.thumb li img{
+    max-width: 40px;
+}
+
+footer p{
+    height: 20px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+

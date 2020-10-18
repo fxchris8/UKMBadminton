@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img class="logo" src="badminton.png" alt="logo"></a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="registration.html" target="_blank"><button>REGISTRATION</button></a>
+        </header>
+        
+        <div class="konten">
+            <div class="teks">
+                <h2>Raket<br><span>Badminton</span></h2>
+                <p>Raket adalah alat yang digunakan untuk memukul kok dalam permainan Badminton.
+                    Raket pada jaman dulu dibuat dari kayu, lalu raket dibuat dari alumunium atau 
+                    logam ringan lainnya. Namun seiring dengan perkembangan jaman hampir semua raket 
+                    badminton milik pemain badminton profesional berkomposisikan serat karbon. 
+                </p>
+            </div>
+            <div class="imgbad">
+                <img src="raket.png" class="bad"> 
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><a href="bad.html"><img src="bad.png" onclick="imgSlider('bad.png')"></a></li>
+            <li><a href="raket.html"><img src="raket.png" onclick="imgSlider('raket.png')"></a></li>
+            <li><a href="kok.html"><img src="kok.png" onclick="imgSlider('kok.png')"></a></li>
+        </ul>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.bad').src=anything;
+            }
+        </script>
+        <footer>
+            <footer>
+                <p>
+                    Copyright&#169; 2020 Christopher
+                </p>
+            </footer>
+        </footer>
+    </body>
+</html>
